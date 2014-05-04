@@ -2,7 +2,7 @@
 layout: default
 ---
 <h3>{{ page.title }}</h3>
-<h6>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h6>
+<h6>{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</h6>
 <article>
   {{ content }}
 </article>
