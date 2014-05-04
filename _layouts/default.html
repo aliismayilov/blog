@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
   {% include head.html %}
+<body>
 
-    <body>
+  {% include navbar.html %}
 
-    {% include header.html %}
+  <!-- Main Page Content and Sidebar -->
 
-    <div class="page-content">
-      <div class="wrap">
+  <div class="row">
+    <div class="large-9 columns" role="content">
       {{ content }}
-      </div>
     </div>
 
-    {% include footer.html %}
+    <aside class="large-3 columns">
+      {% include sidebar.html %}
+    </aside>
+  </div>
 
-    </body>
+  <!-- End Main Content and Sidebar -->
+
+
+  {% include footer.html %}
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.2.2/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
 </html>
