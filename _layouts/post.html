@@ -6,3 +6,9 @@ layout: default
 <article>
   {{ content }}
 </article>
+
+<p>
+  {% for tag in page.tags %}
+  <span class="label">{{ tag }}</span>
+  {% endfor %}
+</p>

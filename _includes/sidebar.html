@@ -1,8 +1,8 @@
 <div class="panel">
-  <h5>Categories</h5>
+  <h5>Tags</h5>
   <ul class="side-nav">
-    {% for category in site.categories %}
-      <li><a href="#">{{ category | first }}</a></li>
+    {% for tag in site.tags %}
+      <li><a href="#">{{ tag | first }}</a></li>
     {% endfor %}
   </ul>
 </div>
