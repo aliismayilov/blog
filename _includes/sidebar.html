@@ -1,8 +1,16 @@
-<div class="panel">
-  <h5>Tags</h5>
-  <ul class="side-nav">
-    {% for tag in site.tags %}
-      <li><a href="#">{{ tag | first }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="sidebar pure-u-1 pure-u-med-1-4">
+  <div class="header">
+    <hgroup>
+      <h1 class="brand-title"><a href="/">{{ site.name }}</a></h1>
+      <h2 class="brand-tagline">{{ site.tagline }}</h2>
+    </hgroup>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="pure-button" href="http://alii.pro">About me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>

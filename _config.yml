@@ -1,5 +1,5 @@
 name: Descripting
-tagline: ''
+tagline: "Ali's blog"
 markdown: redcarpet
 highlighter: pygments
 description: "This is blog of Ali Ismayilov, living web developer."

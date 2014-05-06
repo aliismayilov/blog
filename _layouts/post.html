@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-<h3>{{ page.title }}</h3>
-<h6>{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</h6>
-<article>
-  {{ content }}
-</article>
+<section class="post">
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
 
-<p>
-  {% for tag in page.tags %}
-  <span class="label">{{ tag }}</span>
-  {% endfor %}
-</p>
+    <p class="post-meta">
+      {{ page.date | date: "%b %-d, %Y" }}
+    </p>
+  </header>
+  <div class="post-description">
+    {{ content }}
+  </div>
+  <p>
+    {% for tag in page.tags %}
+      <a class="post-category post-category-{{ tag }}" href="#">{{ tag }}</a>
+    {% endfor %}
+  </p>
+</section>
