@@ -10,4 +10,4 @@ But I didn't want to start from scratch, because I could forget my initial goal 
 
 I was looking for something minimal and pure CSS. Here it is, I am using [Pure](http://purecss.io/) by Yahoo! I grabbed their [blog layout](http://purecss.io/layouts/) and now I am good to go.
 
-Second, more important thing was to make a favicon. Say hi to the up left!
+Second, more important thing was to make a favicon. Say hi to the upper left!
