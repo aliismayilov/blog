@@ -20,8 +20,5 @@ task :deploy => :environment do
     invoke :'git:clone'
     invoke :'bundle:install'
     queue "#{bundle_prefix} jekyll build"
-    queue 'find . | grep -v "_site" | xargs rm -r'
-    queue 'mv _site/* ./'
-    queue 'rm -r _site'
   end
 end
