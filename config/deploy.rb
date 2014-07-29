@@ -56,7 +56,7 @@ task :deploy => :environment do
     invoke :'git:clone'
     # invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
-    invoke :'bundle exec jekyll build'
+    queue :'bundle exec jekyll build'
     # invoke :'rails:db_migrate'
     # invoke :'rails:assets_precompile'
 
