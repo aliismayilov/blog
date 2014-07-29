@@ -8,3 +8,6 @@ url: "http://blog.alii.pro"
 tag_page_layout: tag_page
 tag_page_dir: tags
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile']
+sass:
+  sass_dir: _sass
+  style: :compressed
