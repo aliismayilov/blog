@@ -10,7 +10,7 @@ The blog system I am using is [Jekyll](http://jekyllrb.com/).
 To make the deployment smooth and fast I use [Mina](http://mina-deploy.github.io/mina/).
 The philosophy behind Mina is the same as Capistrano's, but with less features and configuration.
 
-DigitalOcean has a good tutorial for setting up a CentOS server: [https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-6](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-6)
+DigitalOcean has a good tutorial for setting up a CentOS server: [https://www.digitalocean.com/...-centos-6](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-6)
 
 Nginx has an official repo for CentOS which you can use for `sudo yum update`: [http://wiki.nginx.org/Install](http://wiki.nginx.org/Install)
 
