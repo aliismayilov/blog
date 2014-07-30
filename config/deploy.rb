@@ -3,12 +3,11 @@ require 'mina/rails'
 require 'mina/git'
 require 'mina/rbenv'
 
-set :domain, 'cloud.alii.pro'
-set :deploy_to, '/home/ali/blog'
-set :repository, 'https://github.com/aliismayilov/blog.git'
-set :branch, 'master'
-
-set :user, 'ali'    # Username in the server to SSH to.
+set :domain,      'cloud.alii.pro'
+set :user,        'ali'
+set :deploy_to,   '/home/ali/blog'
+set :repository,  'https://github.com/aliismayilov/blog.git'
+set :branch,      'master'
 
 task :environment do
   invoke :'rbenv:load'
