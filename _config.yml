@@ -11,3 +11,5 @@ exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'config']
 sass:
   sass_dir: _sass
   style: :compressed
+gems:
+  - jekyll-sitemap
