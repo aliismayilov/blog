@@ -1,8 +1,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{{ page.tags | join: ',' }}">
+  {% include ograph.html %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
