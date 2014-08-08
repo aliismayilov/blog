@@ -14,7 +14,7 @@ layout: default
   </div>
   <p>
     {% for tag in page.tags %}
-      <a class="post-category post-category-{{ tag }}" href="/tags/{{ tag }}.html">{{ tag }}</a>
+      <span class="post-category post-category-{{ tag }}">{{ tag }}</span>
     {% endfor %}
   </p>
 </section>
