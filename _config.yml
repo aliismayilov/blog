@@ -6,6 +6,7 @@ description: "This is blog of Ali Ismayilov, living web developer."
 author: Ali Ismayilov
 baseurl: /blog
 full_url: "http://alii.pro/blog"
+gravatar: https://s.gravatar.com/avatar/9e9145433392d008199ab60e80a7f87d?s=512
 exclude:
   - Gemfile
   - Gemfile.lock
