@@ -4,8 +4,11 @@ markdown: redcarpet
 highlighter: pygments
 description: "This is blog of Ali Ismayilov, living web developer."
 author: Ali Ismayilov
-url: "http://alii.pro/blog"
-exclude: ['Gemfile', 'Gemfile.lock']
+baseurl: /blog
+full_url: "http://alii.pro/blog"
+exclude:
+  - Gemfile
+  - Gemfile.lock
 sass:
   sass_dir: _sass
   style: :compressed
