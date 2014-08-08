@@ -73,3 +73,35 @@
     background: #008900;
   }
 }
+
+.post-category-vagrant {
+  background: #48b4fb;
+
+  &:hover {
+    background: #38a4db;
+  }
+}
+
+.post-category-rails {
+  background: #981a21;
+
+  &:hover {
+    background: #880a11;
+  }
+}
+
+.post-category-windows {
+  background: #0072c6;
+
+  &:hover {
+    background: #0062b6;
+  }
+}
+
+.post-category-puppet {
+  background: #57488d;
+
+  &:hover {
+    background: #47387d;
+  }
+}
